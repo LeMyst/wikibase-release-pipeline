@@ -19,11 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: variables.env
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
@@ -89,11 +89,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: variables.env
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
@@ -156,11 +156,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: variables.env
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
@@ -202,11 +202,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: variables.env
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
@@ -249,11 +249,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: variables.env
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
@@ -287,11 +287,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: variables.env
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
@@ -347,11 +347,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: variables.env
 
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
@@ -520,7 +520,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: c-py/action-dotenv-to-setenv@v2
+      - uses: c-py/action-dotenv-to-setenv@v3
         with:
           env-file: ${{ env.env_file }}
 
