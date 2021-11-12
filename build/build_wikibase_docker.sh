@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex
+set -e
 
 mkdir -p Docker/build/Wikibase/artifacts
 mkdir -p Docker/build/Wikibase/artifacts/extensions

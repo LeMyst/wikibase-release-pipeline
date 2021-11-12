@@ -23,6 +23,6 @@ GIT_TRACE=1 git -C "$EXT_PATH" submodule update --init --recursive
 bash "$ROOT"/build/write_git_metadata.sh "$EXT_PATH" "$EXTENSION_COMMIT_HASH_FILE" "$EXTENSION_COMMIT_HASH_VARIABLE"
 
 # remove git things from release package
-rm "$EXT_PATH"/.git* -rfv
+rm "$EXT_PATH"/.git* -rf
 
 cp -r "$EXT_PATH" "$FINAL_EXTENSION_PATH"
